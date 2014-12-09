@@ -1,7 +1,5 @@
 #!/bin/bash
 
-PATH="/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin";
-
 DISK_CAP=`df / | tail -1 | awk '{print $2}'`
 DISK_USED=`df / | tail -1 | awk '{print $3}'`
 
